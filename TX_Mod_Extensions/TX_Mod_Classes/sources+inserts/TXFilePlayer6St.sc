@@ -261,7 +261,7 @@ TXFilePlayer6St : TXModuleBase {	// Disk File Player - stereo
 				// remove condition from load queue
 				system.holdLoadQueue.removeCondition(holdModCondition);
 				// update view
-				system.showView;
+				//system.showView;
 			};
 		},{
 			{TXInfoScreen.new("File not found: " ++ argFileName);}.defer; // defer because gui process
